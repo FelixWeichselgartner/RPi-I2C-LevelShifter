@@ -1,3 +1,5 @@
 *.b#*
 *.pro
 *.s#*
+simulation/*.log
+simulation/*.raw
