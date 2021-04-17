@@ -16,10 +16,12 @@ A PiHAT for converting the Raspberry Pi I²C Signals from 3.3V levels to 5V leve
 This is how the module is supposed to be used:
 
 On Raspberry Pi 3B+:
+
 <img src="img/rpi/RPi_3B+.jpg" alt="3b+" height="300">
 <br>
 
 On Raspberry Pi Compute Module 4 IO Board:
+
 <img src="img/rpi/RPi_CM4IO.jpg" alt="cm4" height="300">
 <br>
 
@@ -36,18 +38,22 @@ Here is how my prototype looks like:
 And here are my oscilloscope measurements on level shifting a rectangular pulse with the following frequencies:
 
 40kHz:
-<img src="img/oscilloscope/40kHz.bmp" alt="osci_40kHz" height="300">
+
+<img src="img/oscilloscope_waveforms/40kHz.bmp" alt="osci_40kHz" height="300">
 <br>
 
 200kHz:
-<img src="img/oscilloscope/200kHz.bmp" alt="osci_200kHz" height="300">
+
+<img src="img/oscilloscope_waveforms/200kHz.bmp" alt="osci_200kHz" height="300">
 <br>
 
 500kHz (from here on it doesn't seem to be able to reach the full 5V):
-<img src="img/oscilloscope/500kHz.bmp" alt="osci_500kHz" height="300">
+
+<img src="img/oscilloscope_waveforms/500kHz.bmp" alt="osci_500kHz" height="300">
 <br>
 
 And here a screenshot of the included LT-Spice simulation:
+
 <img src="img/simulation.png" alt="simulation" height="350">
 <br>
 
