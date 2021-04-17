@@ -3,3 +3,5 @@
 *.s#*
 simulation/*.log
 simulation/*.raw
+img/pcb/pcb_raw.jpg
+img/pcb/pcb.pdn
