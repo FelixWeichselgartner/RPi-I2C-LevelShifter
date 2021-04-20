@@ -27,7 +27,7 @@ On Raspberry Pi Compute Module 4 IO Board:
 
 ## Testing
 
-I tested the pcb, however and hand-soldered everything (which I can definitely not recommend). Everything is soldered exactly like in the schematic, even though I placed some parts differently.
+I tested the pcb, however I hand-soldered everything (which I can definitely not recommend). Everything is soldered exactly like in the schematic, even though I placed some parts differently.
 
 Here is how my prototype looks like:
 
