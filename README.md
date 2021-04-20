@@ -52,9 +52,16 @@ And here are my oscilloscope measurements on level shifting a rectangular pulse 
 <img src="img/oscilloscope_waveforms/500kHz.bmp" alt="osci_500kHz" height="300">
 <br>
 
+This behaviours is confirmed by simulation.
+
 And here a screenshot of the included LT-Spice simulation:
 
-<img src="img/simulation.png" alt="simulation" height="350">
+<img src="img/simulation_low_freq.png" alt="simulation" height="350">
+<br>
+
+And here a simulation of high frequencies. This shows (as the real graph above) that the mosfet is too slow for MHz frequencies. Replace the mosfet with a faster one if you have to a high frequency application.
+
+<img src="img/simulation_1.7Mhz.png" alt="simulation" height="350">
 <br>
 
 ## Dependencies
