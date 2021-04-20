@@ -56,12 +56,12 @@ This behaviours is confirmed by simulation.
 
 And here a screenshot of the included LT-Spice simulation:
 
-<img src="img/simulation_low_freq.png" alt="simulation" height="350">
+<img src="img/simulation_low_freq.png" alt="simulation_low_freq" height="350">
 <br>
 
 And here a simulation of high frequencies. This shows (as the real graph above) that the mosfet is too slow for MHz frequencies. Replace the mosfet with a faster one if you have to a high frequency application.
 
-<img src="img/simulation_1.7Mhz.png" alt="simulation" height="350">
+<img src="img/simulation_high_freq.png" alt="simulation_high_freq" height="350">
 <br>
 
 ## Dependencies
